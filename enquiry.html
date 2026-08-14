@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FadeX Barbershop | Enquiry</title>
+
+    <!-- Link to the website stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header section -->
+    <header>
+
+        <!-- Navigation menu -->
+        <nav>
+            <a href="index.html" class="logo">
+    <img src="images/logo.jpeg" alt="FadeX Barbershop Logo">
+</a>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- Main content -->
+    <main>
+
+        <!-- Enquiry introduction -->
+        <section>
+            <h2>Book an Appointment</h2>
+
+            <p>
+                Complete the form below to enquire about an appointment
+                at FadeX Barbershop.
+            </p>
+        </section>
+
+        <!-- Appointment form -->
+        <section>
+
+            <form>
+
+                <!-- Customer name -->
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <!-- Email -->
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <!-- Phone -->
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <!-- Location -->
+                <label for="location">Preferred Location:</label>
+
+                <select id="location" name="location" required>
+                    <option value="">Select a location</option>
+                    <option value="johannesburg">Johannesburg</option>
+                    <option value="pretoria">Pretoria</option>
+                </select>
+
+                <!-- Service -->
+                <label for="service">Select a Service:</label>
+
+                <select id="service" name="service" required>
+                    <option value="">Select a service</option>
+                    <option value="classic-haircut">Classic Haircut</option>
+                    <option value="fade">Fade Haircut</option>
+                    <option value="kids">Kids Haircut</option>
+                    <option value="beard">Beard Grooming</option>
+                    <option value="hair-wash">Hair Wash</option>
+                    <option value="haircut-beard">Haircut & Beard</option>
+                </select>
+
+                <!-- Preferred date -->
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <!-- Preferred time -->
+                <label for="time">Preferred Time:</label>
+                <input type="time" id="time" name="time" required>
+
+                <!-- Additional message -->
+                <label for="message">Additional Message:</label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Tell us anything else we should know..."
+                ></textarea>
+
+                <!-- Submit button -->
+                <button type="submit">Submit Enquiry</button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 FadeX Barbershop. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to JavaScript -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
