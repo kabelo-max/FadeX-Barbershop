@@ -187,7 +187,6 @@ Mozilla Developer Network (MDN) Web Docs. (n.d.). *CSS Grid Layout*. Available a
 Mozilla Developer Network (MDN) Web Docs. (n.d.). *Responsive web design*. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design
 
 W3C. (n.d.). *Web Content Accessibility Guidelines (WCAG)*. Available at: https://www.w3.org/WAI/standards-guidelines/wcag/
-
 The Independent Institute of Education (IIE). (2026). Web Development (Introduction): WEDE5020/p/w Module Manual. First Edition: 2012. The Independent Institute of Education (Pty) Ltd.
 
 Mozilla Developer Network (MDN) Web Docs. (n.d.). CSS: Cascading Style Sheets. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS
