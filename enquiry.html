@@ -1,125 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>FadeX Barbershop | Enquiry</title>
+    <title>Barbershop Services | FadeX Barbershop</title>
 
-    <!-- Link to the website stylesheet -->
+    <meta name="description"
+          content="Explore FadeX Barbershop services including classic haircuts, fades, kids haircuts, beard trims and complete grooming.">
+
+    <meta name="keywords"
+          content="FadeX Barbershop, haircuts, fade haircut, beard trim, grooming, Johannesburg barbershop">
+
+    <meta name="author" content="FadeX Barbershop">
+
     <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/script.js" defer></script>
 </head>
 
 <body>
 
-    <!-- Header section -->
-    <header>
+<header>
+    <nav>
+        <div class="logo">
+            <img src="images/logo.jpeg" alt="FadeX Barbershop Logo">
+        </div>
 
-        <!-- Navigation menu -->
-        <nav>
-            <a href="index.html" class="logo">
-    <img src="images/logo.jpeg" alt="FadeX Barbershop Logo">
-</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="enquiry.html">Enquiry</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="enquiry.html">Enquiry</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+<main>
 
-    </header>
+    <section>
+        <h1>Our Barbershop Services</h1>
 
-    <!-- Main content -->
-    <main>
+        <p>
+            FadeX Barbershop offers professional haircuts, beard grooming
+            and complete grooming services. Explore our services below.
+        </p>
+    </section>
 
-        <!-- Enquiry introduction -->
-        <section>
-            <h2>Book an Appointment</h2>
+    <section>
+        <h2>Search Our Services</h2>
 
-            <p>
-                Complete the form below to enquire about an appointment
-                at FadeX Barbershop.
-            </p>
-        </section>
+        <label for="service-search">Search for a service:</label>
 
-        <!-- Appointment form -->
-        <section>
+        <input
+            type="search"
+            id="service-search"
+            placeholder="Search haircuts, beard trims..."
+            aria-label="Search barbershop services">
 
-            <form>
+        <p id="search-message" aria-live="polite">
+            Showing all available services.
+        </p>
+    </section>
 
-                <!-- Customer name -->
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" required>
+    <section>
+        <h2>Haircuts</h2>
 
-                <!-- Email -->
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" required>
+        <div class="service-grid">
 
-                <!-- Phone -->
-                <label for="phone">Phone Number:</label>
-                <input type="tel" id="phone" name="phone" required>
+            <article class="service-card">
+                <h3>Classic Haircut</h3>
+                <p>
+                    A traditional haircut with clean finishing and
+                    professional styling.
+                </p>
+            </article>
 
-                <!-- Location -->
-                <label for="location">Preferred Location:</label>
+            <article class="service-card">
+                <h3>Fade Haircut</h3>
+                <p>
+                    A modern fade haircut with smooth blending
+                    and sharp finishing.
+                </p>
+            </article>
 
-                <select id="location" name="location" required>
-                    <option value="">Select a location</option>
-                    <option value="johannesburg">Johannesburg</option>
-                    <option value="pretoria">Pretoria</option>
-                </select>
+            <article class="service-card">
+                <h3>Kids Haircut</h3>
+                <p>
+                    A comfortable and stylish haircut for younger clients.
+                </p>
+            </article>
 
-                <!-- Service -->
-                <label for="service">Select a Service:</label>
+        </div>
+    </section>
 
-                <select id="service" name="service" required>
-                    <option value="">Select a service</option>
-                    <option value="classic-haircut">Classic Haircut</option>
-                    <option value="fade">Fade Haircut</option>
-                    <option value="kids">Kids Haircut</option>
-                    <option value="beard">Beard Grooming</option>
-                    <option value="hair-wash">Hair Wash</option>
-                    <option value="haircut-beard">Haircut & Beard</option>
-                </select>
+    <section>
+        <h2>Beard Services</h2>
 
-                <!-- Preferred date -->
-                <label for="date">Preferred Date:</label>
-                <input type="date" id="date" name="date" required>
+        <div class="service-grid">
 
-                <!-- Preferred time -->
-                <label for="time">Preferred Time:</label>
-                <input type="time" id="time" name="time" required>
+            <article class="service-card">
+                <h3>Beard Trim</h3>
+                <p>
+                    Maintain a neat and professional beard appearance.
+                </p>
+            </article>
 
-                <!-- Additional message -->
-                <label for="message">Additional Message:</label>
+            <article class="service-card">
+                <h3>Beard Shape-Up</h3>
+                <p>
+                    Detailed beard lining and shaping for a sharp finish.
+                </p>
+            </article>
 
-                <textarea
-                    id="message"
-                    name="message"
-                    rows="5"
-                    placeholder="Tell us anything else we should know..."
-                ></textarea>
+        </div>
+    </section>
 
-                <!-- Submit button -->
-                <button type="submit">Submit Enquiry</button>
+    <section>
+        <h2>Complete Grooming</h2>
 
-            </form>
+        <div class="service-grid">
 
-        </section>
+            <article class="service-card">
+                <h3>Complete Grooming Package</h3>
+                <p>
+                    Combine a haircut and beard service for a complete
+                    grooming experience.
+                </p>
 
-    </main>
+                <a href="enquiry.html" class="button">
+                    Enquire About This Service
+                </a>
+            </article>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 FadeX Barbershop. All rights reserved.</p>
-    </footer>
+        </div>
+    </section>
 
-    <!-- Link to JavaScript -->
-    <script src="js/script.js"></script>
+    <section>
+        <h2>Our Gallery</h2>
+
+        <p>
+            Click an image to view it in a larger size.
+        </p>
+
+        <div class="gallery">
+
+            <img
+                src="images/image 1.jpeg"
+                alt="FadeX Barbershop haircut and grooming"
+                class="gallery-image"
+                loading="lazy">
+
+            <img
+                src="images/image 1.jpeg"
+                alt="Professional barbershop haircut"
+                class="gallery-image"
+                loading="lazy">
+
+            <img
+                src="images/image 1.jpeg"
+                alt="Barbershop grooming service"
+                class="gallery-image"
+                loading="lazy">
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Book Your Appointment</h2>
+
+        <p>
+            Contact us to enquire about our services and appointment
+            availability.
+        </p>
+
+        <a href="enquiry.html" class="button">
+            Make an Enquiry
+        </a>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 FadeX Barbershop. All rights reserved.</p>
+</footer>
 
 </body>
-
 </html>
