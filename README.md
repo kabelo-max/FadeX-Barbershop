@@ -176,25 +176,32 @@ FadeX-Barbershop
 ├── contact.html
 └── README.md
 
-## References
+<?xml version="1.0" encoding="UTF-8"?>
 
-Mozilla Developer Network (MDN) Web Docs. (n.d.). *CSS: Cascading Style Sheets*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-Mozilla Developer Network (MDN) Web Docs. (n.d.). *CSS Flexible Box Layout*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout
+```
+<url>
+    <loc>https://kabelo-max.github.io/FadeX-Barbershop/</loc>
+</url>
 
-Mozilla Developer Network (MDN) Web Docs. (n.d.). *CSS Grid Layout*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout
+<url>
+    <loc>https://kabelo-max.github.io/FadeX-Barbershop/about.html</loc>
+</url>
 
-Mozilla Developer Network (MDN) Web Docs. (n.d.). *Responsive web design*. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design
+<url>
+    <loc>https://kabelo-max.github.io/FadeX-Barbershop/services.html</loc>
+</url>
 
-W3C. (n.d.). *Web Content Accessibility Guidelines (WCAG)*. Available at: https://www.w3.org/WAI/standards-guidelines/wcag/
-The Independent Institute of Education (IIE). (2026). Web Development (Introduction): WEDE5020/p/w Module Manual. First Edition: 2012. The Independent Institute of Education (Pty) Ltd.
+<url>
+    <loc>https://kabelo-max.github.io/FadeX-Barbershop/enquiry.html</loc>
+</url>
 
-Mozilla Developer Network (MDN) Web Docs. (n.d.). CSS: Cascading Style Sheets. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS
+<url>
+    <loc>https://kabelo-max.github.io/FadeX-Barbershop/contact.html</loc>
+</url>
+```
 
-Mozilla Developer Network (MDN) Web Docs. (n.d.). CSS Flexible Box Layout. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout
-
-Mozilla Developer Network (MDN) Web Docs. (n.d.). CSS Grid Layout. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout
-
-Mozilla Developer Network (MDN) Web Docs. (n.d.). Responsive web design. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design
+</urlset>
 
 W3C. (n.d.). Web Content Accessibility Guidelines (WCAG). Available at: https://www.w3.org/WAI/standards-guidelines/wcag/
