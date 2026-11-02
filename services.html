@@ -1,116 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>FadeX Barbershop | Services</title>
+    <title>Barbershop Services | FadeX Barbershop</title>
 
-    <!-- Link to the website stylesheet -->
+    <meta name="description"
+          content="Explore FadeX Barbershop services including classic haircuts, fades, kids haircuts, beard trims and complete grooming.">
+
+    <meta name="keywords"
+          content="FadeX Barbershop, haircuts, fade haircut, beard trim, grooming, Johannesburg barbershop">
+
+    <meta name="author" content="FadeX Barbershop">
+
     <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/script.js" defer></script>
 </head>
 
 <body>
 
-    <!-- Header section -->
-    <header>
+<header>
+    <nav>
+        <div class="logo">
+            <img src="images/logo.jpeg" alt="FadeX Barbershop Logo">
+        </div>
 
-        <!-- Navigation menu -->
-        <nav>
-            <a href="index.html" class="logo">
-    <img src="images/logo.jpeg" alt="FadeX Barbershop Logo">
-</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="enquiry.html">Enquiry</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="enquiry.html">Enquiry</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+<main>
 
-    </header>
+    <section>
+        <h1>Our Barbershop Services</h1>
 
-    <!-- Main content -->
-    <main>
+        <p>
+            FadeX Barbershop offers professional haircuts, beard grooming
+            and complete grooming services. Explore our services below.
+        </p>
+    </section>
 
-        <!-- Services introduction -->
-        <section>
-            <h2>Our Services</h2>
+    <section>
+        <h2>Search Our Services</h2>
 
-            <p>
-                FadeX Barbershop offers professional grooming services
-                for men, teenagers and children.
-            </p>
-        </section>
+        <label for="service-search">Search for a service:</label>
 
-        <!-- Haircut services -->
-        <section>
-            <h2>Haircut Services</h2>
+        <input
+            type="search"
+            id="service-search"
+            placeholder="Search haircuts, beard trims..."
+            aria-label="Search barbershop services">
 
-            <ul>
-                <li>
-                    <strong>Classic Haircut</strong> - R150
-                    <p>A clean and professional haircut based on your preferred style.</p>
-                </li>
+        <p id="search-message" aria-live="polite">
+            Showing all available services.
+        </p>
+    </section>
 
-                <li>
-                    <strong>Fade Haircut</strong> - R150
-                    <p>A modern fade tailored to your preferred length and style.</p>
-                </li>
+    <section>
+        <h2>Haircuts</h2>
 
-                <li>
-                    <strong>Kids Haircut</strong> - R120
-                    <p>A neat and comfortable haircut for children.</p>
-                </li>
-            </ul>
-        </section>
+        <div class="service-grid">
 
-        <!-- Grooming services -->
-        <section>
-            <h2>Grooming Services</h2>
+            <article class="service-card">
+                <h3>Classic Haircut</h3>
+                <p>
+                    A traditional haircut with clean finishing and
+                    professional styling.
+                </p>
+            </article>
 
-            <ul>
-                <li>
-                    <strong>Beard Grooming</strong> - R100
-                    <p>Professional beard trimming and shaping.</p>
-                </li>
+            <article class="service-card">
+                <h3>Fade Haircut</h3>
+                <p>
+                    A modern fade haircut with smooth blending
+                    and sharp finishing.
+                </p>
+            </article>
 
-                <li>
-                    <strong>Hair Wash</strong> - R80
-                    <p>A refreshing hair wash before or after your haircut.</p>
-                </li>
+            <article class="service-card">
+                <h3>Kids Haircut</h3>
+                <p>
+                    A comfortable and stylish haircut for younger clients.
+                </p>
+            </article>
 
-                <li>
-                    <strong>Haircut & Beard</strong> - R220
-                    <p>A complete haircut and beard grooming package.</p>
-                </li>
-            </ul>
-        </section>
+        </div>
+    </section>
 
-        <!-- Booking section -->
-        <section>
-            <h2>Ready for Your Next Cut?</h2>
+    <section>
+        <h2>Beard Services</h2>
 
-            <p>
-                Book an appointment with one of our professional barbers.
-            </p>
+        <div class="service-grid">
 
-            <a href="enquiry.html">Book an Appointment</a>
-        </section>
+            <article class="service-card">
+                <h3>Beard Trim</h3>
+                <p>
+                    Maintain a neat and professional beard appearance.
+                </p>
+            </article>
 
-    </main>
+            <article class="service-card">
+                <h3>Beard Shape-Up</h3>
+                <p>
+                    Detailed beard lining and shaping for a sharp finish.
+                </p>
+            </article>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2026 FadeX Barbershop. All rights reserved.</p>
-    </footer>
+        </div>
+    </section>
 
-    <!-- Link to JavaScript -->
-    <script src="js/script.js"></script>
+    <section>
+        <h2>Complete Grooming</h2>
+
+        <div class="service-grid">
+
+            <article class="service-card">
+                <h3>Complete Grooming Package</h3>
+                <p>
+                    Combine a haircut and beard service for a complete
+                    grooming experience.
+                </p>
+
+                <a href="enquiry.html" class="button">
+                    Enquire About This Service
+                </a>
+            </article>
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Our Gallery</h2>
+
+        <p>
+            Click an image to view it in a larger size.
+        </p>
+
+        <div class="gallery">
+
+            <img
+                src="images/image 1.jpeg"
+                alt="FadeX Barbershop haircut and grooming"
+                class="gallery-image"
+                loading="lazy">
+
+            <img
+                src="images/image 1.jpeg"
+                alt="Professional barbershop haircut"
+                class="gallery-image"
+                loading="lazy">
+
+            <img
+                src="images/image 1.jpeg"
+                alt="Barbershop grooming service"
+                class="gallery-image"
+                loading="lazy">
+
+        </div>
+    </section>
+
+    <section>
+        <h2>Book Your Appointment</h2>
+
+        <p>
+            Contact us to enquire about our services and appointment
+            availability.
+        </p>
+
+        <a href="enquiry.html" class="button">
+            Make an Enquiry
+        </a>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 FadeX Barbershop. All rights reserved.</p>
+</footer>
 
 </body>
-
 </html>
