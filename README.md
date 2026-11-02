@@ -176,32 +176,114 @@ FadeX-Barbershop
 ├── contact.html
 └── README.md
 
-<?xml version="1.0" encoding="UTF-8"?>
+---
 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+## Part 3 - Enhancing Functionality and SEO
 
-```
-<url>
-    <loc>https://kabelo-max.github.io/FadeX-Barbershop/</loc>
-</url>
+Part 3 focused on improving the functionality, usability and search engine optimisation of the FadeX Barbershop website.
 
-<url>
-    <loc>https://kabelo-max.github.io/FadeX-Barbershop/about.html</loc>
-</url>
+### JavaScript Enhancements
 
-<url>
-    <loc>https://kabelo-max.github.io/FadeX-Barbershop/services.html</loc>
-</url>
+JavaScript was implemented to improve user interaction and provide additional functionality.
 
-<url>
-    <loc>https://kabelo-max.github.io/FadeX-Barbershop/enquiry.html</loc>
-</url>
+The following features were added:
 
-<url>
-    <loc>https://kabelo-max.github.io/FadeX-Barbershop/contact.html</loc>
-</url>
-```
+- Service search functionality.
+- Dynamic filtering of service cards.
+- Image gallery with a lightbox.
+- Interactive image enlargement.
+- Form validation for the enquiry page.
+- Form validation for the contact page.
+- Feedback messages for invalid form inputs.
+- Interactive form responses.
 
-</urlset>
+### Form Functionality
 
-W3C. (n.d.). Web Content Accessibility Guidelines (WCAG). Available at: https://www.w3.org/WAI/standards-guidelines/wcag/
+The enquiry form allows users to select a service and provide their contact information and preferred appointment date.
+
+JavaScript validation checks that the required information has been entered correctly before displaying a response.
+
+The contact form allows users to submit general messages, feedback or complaints.
+
+After validation, the message is compiled into an email using the mailto function.
+
+### Search Engine Optimisation
+
+SEO improvements were implemented across the website.
+
+These include:
+
+- Page-specific title tags.
+- Meta descriptions.
+- Relevant keywords.
+- Descriptive headings.
+- Alternative text for images.
+- Internal navigation links.
+- Mobile-friendly layouts.
+- Descriptive page content.
+
+### Technical SEO
+
+The following technical SEO files were added:
+
+- robots.txt
+- sitemap.xml
+
+The robots.txt file provides instructions for search engine crawlers.
+
+The sitemap.xml file lists the website pages to help search engines understand the website structure.
+
+### Testing
+
+The website was tested using a browser.
+
+Testing included:
+
+- Service search.
+- Image lightbox.
+- Form validation.
+- Navigation links.
+- Responsive layout.
+- Mobile display.
+- JavaScript functionality.
+
+### Part 3 Changelog
+
+**JavaScript**
+- Added JavaScript functionality to improve website interaction.
+- Added service filtering using the search field.
+- Added an image lightbox to display gallery images.
+- Added validation to the enquiry form.
+- Added validation to the contact form.
+- Added form response messages.
+
+**SEO**
+- Added page-specific titles and meta descriptions.
+- Improved image alternative text.
+- Added robots.txt.
+- Added sitemap.xml.
+
+**Forms**
+- Improved the enquiry form with service selection and date input.
+- Added contact message type selection.
+- Added client-side validation.
+- Added an email preparation function for contact messages.
+
+**Documentation**
+- Updated the README to include Part 3 information.
+- Added a Part 3 changelog.
+- Updated the references section.
+
+### References
+
+The Independent Institute of Education (IIE). (2026). *Web Development (Introduction): WEDE5020/p/w Module Manual*. First Edition: 2012. The Independent Institute of Education (Pty) Ltd.
+
+Mozilla Developer Network (MDN) Web Docs. (n.d.). *JavaScript*. Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+Mozilla Developer Network (MDN) Web Docs. (n.d.). *HTML Forms*. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms
+
+Mozilla Developer Network (MDN) Web Docs. (n.d.). *Client-side form validation*. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation
+
+Mozilla Developer Network (MDN) Web Docs. (n.d.). *SEO basics*. Available at: https://developer.mozilla.org/en-US/docs/Glossary/SEO
+
+Google Search Central. (n.d.). *Build and submit a sitemap*. Available at: https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap
